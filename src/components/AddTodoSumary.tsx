@@ -1,5 +1,7 @@
+import { Todo } from "../types/todo";
+
 interface TodoSummaryProps {
-    todos: Todos[];                   // Ensure 'Todo' is defined and use correct case
+    todos: Todo[];                   // Ensure 'Todo' is defined and use correct case
     deleteAllCompleted: () => void;  // Correct syntax error in type declaration
 }
 
